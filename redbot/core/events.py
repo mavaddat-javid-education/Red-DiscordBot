@@ -3,10 +3,9 @@ import contextlib
 import platform
 import sys
 import codecs
-import datetime
 import logging
 import traceback
-from datetime import timedelta
+from datetime import datetime, timedelta
 
 import aiohttp
 import discord
@@ -55,7 +54,7 @@ def init_events(bot, cli_flags):
         if bot._uptime is not None:
             return
 
-        bot._uptime = datetime.datetime.utcnow()
+        bot._uptime = datetime.utcnow()
 
         guilds = len(bot.guilds)
         users = len(set([m for m in bot.get_all_members()]))
@@ -116,7 +115,7 @@ def init_events(bot, cli_flags):
                     "**we highly recommend you to read the update docs at <{docs}> and "
                     "make sure there is nothing else that "
                     "needs to be done during the update.**"
-                ).format(docs="https://docs.discord.red/en/stable/update_red.html",)
+                ).format(docs="https://docs.discord.red/en/stable/update_red.html")
                 if expected_version(current_python, py_version_req):
                     installed_extras = []
                     for extra, reqs in red_pkg._dep_map.items():
@@ -143,8 +142,10 @@ def init_events(bot, cli_flags):
                         if platform.system() == "Windows"
                         else _("Terminal")
                     )
-                    extra_update += '```"{python}" -m pip install -U Red-DiscordBot{package_extras}```'.format(
-                        python=sys.executable, package_extras=package_extras
+                    extra_update += (
+                        '```"{python}" -m pip install -U Red-DiscordBot{package_extras}```'.format(
+                            python=sys.executable, package_extras=package_extras
+                        )
                     )
 
                 else:
@@ -223,7 +224,7 @@ def init_events(bot, cli_flags):
             await ctx.send_help()
         elif isinstance(error, commands.ArgParserFailure):
             msg = _("`{user_input}` is not a valid value for `{command}`").format(
-                user_input=error.user_input, command=error.cmd,
+                user_input=error.user_input, command=error.cmd
             )
             if error.custom_help_msg:
                 msg += f"\n{error.custom_help_msg}"
@@ -313,7 +314,7 @@ def init_events(bot, cli_flags):
             not bot._checked_time_accuracy
             or (discord_now - timedelta(minutes=60)) > bot._checked_time_accuracy
         ):
-            system_now = datetime.datetime.utcnow()
+            system_now = datetime.utcnow()
             diff = abs((discord_now - system_now).total_seconds())
             if diff > 60:
                 log.warning(

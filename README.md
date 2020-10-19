@@ -104,7 +104,7 @@ plugins directly from Discord! A few examples are:
 - AniList
 - And much, much more!
 
-Feel free to take a [peek](https://cogboard.edu/t/approved-repositories/210) at a list of
+Feel free to take a [peek](https://index.discord.red) at a list of
 available 3rd party cogs!
 
 # Join the community!

@@ -38,8 +38,9 @@
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
   </a>
-  <a href="https://crowdin.com/project/Edu-DiscordBot">
-    <img src="https://d322cqt584bo4o.cloudfront.net/Edu-DiscordBot/localized.svg" alt="Localized with Crowdin">
+
+  <a href="https://crowdin.com/project/red-discordbot">
+    <img src="https://d322cqt584bo4o.cloudfront.net/red-discordbot/localized.svg" alt="Localized with Crowdin">
   </a>
 </p>
 
@@ -59,7 +60,7 @@
 
 # Overview
 
-Edu is derived from the [Red-DiscordBot](https://github.com/mavaddat-javid-education/Edu-DiscordBot) by @mavaddat-javid-education.
+Edu is derived from the [Red-DiscordBot](https://github.com/mavaddat-javid-education/Edu-DiscordBot) by @Cog-Creators.
 
 [Installation](#installation) is easy, and you do **NOT** need to know anything about coding! Aside
 from installing and updating, every part of the bot can be controlled from within Discord.
@@ -69,7 +70,7 @@ from installing and updating, every part of the bot can be controlled from withi
 - Moderation features (kick/ban/softban/hackban, mod-log, filter, chat cleanup)
 - Trivia (lists are included and can be easily added)
 - Music features (YouTube, SoundCloud, local files, playlists, queues)
-- Stream alerts (Twitch, Youtube, Hitbox, Picarto)
+- Stream alerts (Twitch, YouTube, Hitbox, Picarto)
 - Bank (slot machine, user credits)
 - Custom commands
 - Imgur/gif search

@@ -29,7 +29,7 @@
   <a href="https://github.com/mavaddat-javid-education/Edu-DiscordBot/actions">
     <img src="https://img.shields.io/github/workflow/status/mavaddat-javid-education/Edu-DiscordBot/Tests?label=tests" alt="GitHub Actions">
   </a>
-  <a href="http://Edu-DiscordBot.readthedocs.io/en/stable/?badge=stable">
+  <a href="http://edu-discordbot.readthedocs.io/en/stable/?badge=stable">
     <img src="https://readthedocs.org/projects/Edu-DiscordBot/badge/?version=stable" alt="Edu on readthedocs.org">
   </a>
   <a href="https://github.com/ambv/black">
@@ -49,7 +49,7 @@
   •
   <a href="#installation">Installation</a>
   •
-  <a href="http://Edu-DiscordBot.readthedocs.io/en/stable/index.html">Documentation</a>
+  <a href="http://edu-discordbot.readthedocs.io/en/stable/index.html">Documentation</a>
   •
   <a href="#plugins">Plugins</a>
   •
@@ -60,7 +60,7 @@
 
 # Overview
 
-Edu is derived from the [Red-DiscordBot](https://github.com/mavaddat-javid-education/Edu-DiscordBot) by @Cog-Creators.
+Edu is derived from the [Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) by @Cog-Creators.
 
 [Installation](#installation) is easy, and you do **NOT** need to know anything about coding! Aside
 from installing and updating, every part of the bot can be controlled from within Discord.
@@ -75,7 +75,7 @@ from installing and updating, every part of the bot can be controlled from withi
 - Custom commands
 - Imgur/gif search
 - Admin automation (self-role assignment, cross-server announcements, mod-mail reports)
-- Customisable command permissions
+- Customizable command permissions
 
 **Additionally, other [plugins](#plugins) (cogs) can be easily found and added from our growing
 community of cog repositories.**
@@ -84,12 +84,11 @@ community of cog repositories.**
 
 **The following platforms are officially supported:**
 
-- [Windows](https://Edu-DiscordBot.readthedocs.io/en/stable/install_windows.html)
-- [MacOS](https://Edu-DiscordBot.readthedocs.io/en/stable/install_linux_mac.html)
-- [Most major linux distributions](https://Edu-DiscordBot.readthedocs.io/en/stable/install_linux_mac.html)
+- [Windows](https://edu-discordbot.readthedocs.io/en/stable/install_windows.html)
+- [MacOS](https://edu-discordbot.readthedocs.io/en/stable/install_linux_mac.html)
+- [Most major linux distributions](https://edu-discordbot.readthedocs.io/en/stable/install_linux_mac.html)
 
-If after reading the guide you are still experiencing issues, feel free to join the
-[Official Discord Server](https://discord.gg/edu) and ask in the **#support** channel for help.
+If after reading the guide you are still experiencing issues, feel free to join the [Mav Jav Discord server](https://discord.gg/KzzTBbr) or the [Official Red-DiscordBot Discord Server](https://discord.gg/red) and ask in the **#support** channel for help.
 
 # Plugins
 
@@ -113,10 +112,10 @@ available 3rd party cogs!
 **Edu** is in continuous development, and it’s supported by an active community which produces new
 content (cogs/plugins) for everyone to enjoy. New features are constantly added. If you can’t
 [find](https://cogboard.edu/t/approved-repositories/210) the cog you’re looking for,
-consult our [guide](https://Edu-DiscordBot.readthedocs.io/en/stable/guide_cog_creation.html) on
+consult our [guide](https://edu-discordbot.readthedocs.io/en/stable/guide_cog_creation.html) on
 building your own cogs!
 
-Join us on our [Official Discord Server](https://discord.gg/KzzTBbr)!
+Join the [Mav Jav Discord server](https://discord.gg/KzzTBbr) or the [Official Red-DiscordBot Discord Server](https://discord.gg/red)!
 
 # License
 
@@ -125,5 +124,5 @@ Released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) li
 Artwork created by [Mavaddat](https://mavaddat.deviantart.com/) on Deviant Art for the Edu Discord
 Bot Project.
 
-This project vendors [discord.ext.menus](https://github.com/Rapptz/discord-ext-menus) package made by Danny Y. (Rapptz) which is distributed under MIT License.
+This project vendors [discord.ext.menus](https://github.com/Rapptz/discord-ext-menus) package made by Danny Y. (@Rapptz) which is distributed under MIT License.
 Copy of this license can be found in [discord-ext-menus.LICENSE](redbot/vendored/discord-ext-menus.LICENSE) file in [redbot/vendored](redbot/vendored) folder of this repository.

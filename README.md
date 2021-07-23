@@ -115,7 +115,7 @@ content (cogs/plugins) for everyone to enjoy. New features are constantly added.
 consult our [guide](https://edu-discordbot.readthedocs.io/en/stable/guide_cog_creation.html) on
 building your own cogs!
 
-Join the [Mav Jav Discord server](https://discord.gg/KzzTBbr) or the [Official Edu-DiscordBot Discord Server](https://discord.gg/red)!
+Join the [Mav Jav Discord server](https://discord.gg/KzzTBbr) or the [Official Red-DiscordBot Discord Server](https://discord.gg/red)!
 
 # License
 

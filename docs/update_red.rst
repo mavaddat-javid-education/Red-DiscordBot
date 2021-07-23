@@ -1,8 +1,8 @@
 ============
-Updating Red
+Updating Edu
 ============
 
-Updating to the latest version of Red has several benefits:
+Updating to the latest version of Edu has several benefits:
 
 - New features and improvements are added.
 - Bugs are fixed.
@@ -12,26 +12,26 @@ Here are some things to consider to help make your upgrade as smooth as possible
 
 .. note::
 
-    If you're developing for Red, you should also look for "Breaking changes" sections in release notes for each minor (X.Y.0) version that's been released since you last updated Red.
+    If you're developing for Edu, you should also look for "Breaking changes" sections in release notes for each minor (X.Y.0) version that's been released since you last updated Edu.
 
 .. important::
 
     Make sure to read the **Read before updating** sections of the changelogs for all releases that were published since you last updated your instance. They contain important information and if you don't read them, you might run into some issues later.
 
-Updating differs depending on the version you currently have. Next sections will explain how to upgrade to latest version of Red (|version|) from the version that is in the header of the section.
+Updating differs depending on the version you currently have. Next sections will explain how to upgrade to latest version of Edu (|version|) from the version that is in the header of the section.
 
 .. contents:: Choose the version you're currently on from the list below:
     :local:
     :depth: 1
 
 
-Red 3.2.0 or newer
+Edu 3.2.0 or newer
 ******************
 
 Windows
 -------
 
-If you have Red 3.2.0 or newer, you can upgrade by following these 4 easy steps:
+If you have Edu 3.2.0 or newer, you can upgrade by following these 4 easy steps:
 
 1. Shut your bot down.
 
@@ -41,16 +41,16 @@ If you have Red 3.2.0 or newer, you can upgrade by following these 4 easy steps:
 
         "%userprofile%\redenv\Scripts\activate.bat"
 
-3. Update Red with this command:
+3. Update Edu with this command:
 
     .. prompt:: batch
         :prompts: (redenv) C:\\>
 
-        python -m pip install -U Red-DiscordBot
+        python -m pip install -U Edu-DiscordBot
 
 .. attention::
 
-    If you're using PostgreSQL data backend, replace ``Red-DiscordBot`` in the second command with ``Red-DiscordBot[postgres]``
+    If you're using PostgreSQL data backend, replace ``Edu-DiscordBot`` in the second command with ``Edu-DiscordBot[postgres]``
 
 4. Start your bot.
 
@@ -59,7 +59,7 @@ If you have Red 3.2.0 or newer, you can upgrade by following these 4 easy steps:
 Linux & Mac
 -----------
 
-If you have Red 3.2.0 or newer, you can upgrade by following these 4 easy steps:
+If you have Edu 3.2.0 or newer, you can upgrade by following these 4 easy steps:
 
 1. Shut your bot down.
 
@@ -77,36 +77,36 @@ If you have Red 3.2.0 or newer, you can upgrade by following these 4 easy steps:
 
         pyenv shell <name>
 
-3. Update Red with this command:
+3. Update Edu with this command:
 
     .. prompt:: bash
         :prompts: (redenv) $
 
-        python -m pip install -U Red-DiscordBot
+        python -m pip install -U Edu-DiscordBot
 
 .. attention::
 
-    If you're using PostgreSQL data backend, replace ``Red-DiscordBot`` in the second command with ``Red-DiscordBot[postgres]``
+    If you're using PostgreSQL data backend, replace ``Edu-DiscordBot`` in the second command with ``Edu-DiscordBot[postgres]``
 
 4. Start your bot.
 
 5. If you have any 3rd-party cogs installed, we highly recommend you update them with this command in Discord: ``[p]cog update`` (``[p]`` is considered as your prefix)
 
-Red 3.1.X
+Edu 3.1.X
 *********
 
-If you have Red 3.1.X, you will need to follow the install instructions for your operating system. Make sure that you turn your bot off first.
+If you have Edu 3.1.X, you will need to follow the install instructions for your operating system. Make sure that you turn your bot off first.
 
 - `Windows <install_windows>`
 - `Linux & Mac <install_linux_mac>`
 
 Follow every step to ensure you have all dependencies up-to-date and only skip ``redbot-setup`` step as you already have a bot instance.
 
-**If you already have Red installed in a virtual environment, you will need to delete it before starting this process.**
+**If you already have Edu installed in a virtual environment, you will need to delete it before starting this process.**
 
 .. attention::
 
-    Red 3.2 dropped support for the MongoDB driver
+    Edu 3.2 dropped support for the MongoDB driver
 
      - If you were not using the MongoDB driver, this does not affect you.
      - If you were using a 3rd party cog which required MongoDB, it probably still does.
@@ -120,12 +120,12 @@ Follow every step to ensure you have all dependencies up-to-date and only skip `
            redbot-setup convert [instancename] json
 
 
-Red 3.0.2 and older
+Edu 3.0.2 and older
 *******************
 
 .. important::
 
-    Red 3.2 dropped support for the MongoDB driver
+    Edu 3.2 dropped support for the MongoDB driver
 
      - If you were not using the MongoDB driver, this does not affect you.
      - If you were using a 3rd party cog which required MongoDB, it probably still does.
@@ -137,11 +137,11 @@ Red 3.0.2 and older
 
            redbot-setup --edit
 
-If you have Red 3.0.2 or older, you will need to follow the install instructions for your operating system. Make sure that you turn your bot off first.
+If you have Edu 3.0.2 or older, you will need to follow the install instructions for your operating system. Make sure that you turn your bot off first.
 
 - `Windows <install_windows>`
 - `Linux & Mac <install_linux_mac>`
 
 Follow every step to ensure you have all dependencies up-to-date and only skip ``redbot-setup`` step as you already have a bot instance.
 
-**If you already have Red installed in a virtual environment, you will need to delete it before starting this process.**
+**If you already have Edu installed in a virtual environment, you will need to delete it before starting this process.**

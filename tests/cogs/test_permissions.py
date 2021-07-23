@@ -1,4 +1,4 @@
-from redbot.cogs.permissions.permissions import Permissions, GLOBAL
+from edubot.cogs.permissions.permissions import Permissions, GLOBAL
 
 
 def test_schema_update():

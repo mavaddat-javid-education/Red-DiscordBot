@@ -9,22 +9,22 @@ Hosting Information
 .. note::
     This doc is written for the :ref:`hosting section <getting-started-hosting>`
     of the :ref:`getting started <getting-started>` guide. Please take a look
-    if you don't know how to host Red.
+    if you don't know how to host Edu.
 
 
-| For your instance of Red to stay online 24/7, it needs to be hosted on a dedicated system.
+| For your instance of Edu to stay online 24/7, it needs to be hosted on a dedicated system.
   This page contains hosting related information and advice for beginners in 
   topics such as picking a provider.
 
 First, we would like to make something clear:
 
 .. warning::
-    Due to their inability to handle Red's data structure and meet the
+    Due to their inability to handle Edu's data structure and meet the
     conditions of being a supported platform; platforms such as Heroku, 
     Pterodactyl, repl.it, Termux, LXC and alike are **NOT** officially supported. 
     Docker support found in GitHub is also a work in progress and not ready
-    for daily use. Workarounds for getting Red running on those platforms
-    are imperfect due to Red's nature. You will not be able to receive
+    for daily use. Workarounds for getting Edu running on those platforms
+    are imperfect due to Edu's nature. You will not be able to receive
     support if an issue occurs when hosting on any of these platforms.
 
 
@@ -32,12 +32,12 @@ First, we would like to make something clear:
 Hosting on a VPS or Dedicated Server
 ------------------------------------
 
-| You can host Red in a VPS running Linux or Windows. Using a Linux VPS is the
+| You can host Edu in a VPS running Linux or Windows. Using a Linux VPS is the
   recommended option. Dedicated servers also work but are overpowered and cost 
   ineffective unless one plans to run a very large bot or use their server for 
-  more than just hosting Red. If you have already created an instance, Red can be moved to a different 
+  more than just hosting Edu. If you have already created an instance, Edu can be moved to a different 
   server for hosting with a backup/restore process. More information and guidance
-  about this process is available in the `Red Support Server <https://discord.com/invite/red>`_.
+  about this process is available in the `Edu Support Server <https://discord.com/invite/red>`_.
 
 .. warning::
     Please be aware that a Linux server is controlled through a command line.
@@ -50,7 +50,7 @@ Hosting on a VPS or Dedicated Server
 Self Hosting
 ------------
 
-| It's possible to self host Red with your own hardware. A Raspberry Pi 3 
+| It's possible to self host Edu with your own hardware. A Raspberry Pi 3 
   will have enough computing capacity to handle a small to medium sized bot. 
   You can also host on your own computer or rack server. Any modern hardware 
   should work without issues. However, this option leaves you responsible for
@@ -60,17 +60,17 @@ Self Hosting
 Choosing a Provider
 -------------------
 
-| The following are some common providers suitable for hosting Red. With
+| The following are some common providers suitable for hosting Edu. With
   each having their pros and cons, this list is mainly intended to act as a
   starting point. You should conduct your own research and come to
   a conclusion depending on your needs and budget, taking into account
   providers not listed here if desired. The key is the provider offering 
-  an OS supported by Red.
+  an OS supported by Edu.
 
 .. tip::
  You will have better results with Audio when the region in your Discord 
  server settings is closer to the bulk of the server's audience and
- the location you picked for your Red host.
+ the location you picked for your Edu host.
 
 
 -----------------
@@ -147,4 +147,4 @@ Free Hosting
 | Additionally, new Google Cloud customers get a $300 credit which is valid for 3 months.
 
 | Excluding the above, there is no recommended free VPS host. Persuasion of
- another individual for hosting Red is an option, albeit low in success rate.
+ another individual for hosting Edu is an option, albeit low in success rate.

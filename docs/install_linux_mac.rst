@@ -1,12 +1,12 @@
 .. _linux-mac-install-guide:
 
 ==============================
-Installing Red on Linux or Mac
+Installing Edu on Linux or Mac
 ==============================
 
 .. warning::
 
-    For safety reasons, DO NOT install Red with a root user. If you are unsure how to create
+    For safety reasons, DO NOT install Edu with a root user. If you are unsure how to create
     a new user on Linux, see `this guide by DigitalOcean
     <https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart>`_.
 
@@ -42,8 +42,8 @@ Arch Linux
 
 .. warning::
 
-    Latest Python packages for Arch Linux provide Python 3.9 which Red does not currently support.
-    To use Red on Arch Linux, you will need to install latest version of Python 3.8 on your own.
+    Latest Python packages for Arch Linux provide Python 3.9 which Edu does not currently support.
+    To use Edu on Arch Linux, you will need to install latest version of Python 3.8 on your own.
 
 .. prompt:: bash
 
@@ -313,7 +313,7 @@ Installing Python with pyenv
     this section.
 
 On distributions where Python 3.8 needs to be compiled from source, we recommend the use of pyenv.
-This simplifies the compilation process and has the added bonus of simplifying setting up Red in a
+This simplifies the compilation process and has the added bonus of simplifying setting up Edu in a
 virtual environment.
 
 .. prompt:: bash
@@ -355,7 +355,7 @@ Creating a Virtual Environment
 
     If you want to learn more about virtual environments, see page: `about-venvs`
 
-We require installing Red into a virtual environment. Don't be scared, it's very
+We require installing Edu into a virtual environment. Don't be scared, it's very
 straightforward.
 
 You have 2 options:
@@ -392,7 +392,7 @@ And activate it with the following command:
 .. important::
 
     You must activate the virtual environment with the above command every time you open a new
-    shell to run, install or update Red.
+    shell to run, install or update Edu.
 
 Continue by `installing-red-linux-mac`.
 
@@ -431,7 +431,7 @@ Now activate your virtualenv with the following command:
 .. important::
 
     You must activate the virtual environment with the above command every time you open a new
-    shell to run, install or update Red. You can check out other commands like ``pyenv local`` and
+    shell to run, install or update Edu. You can check out other commands like ``pyenv local`` and
     ``pyenv global`` if you wish to keep the virtualenv activated all the time.
 
 Continue by `installing-red-linux-mac`.
@@ -441,10 +441,10 @@ Continue by `installing-red-linux-mac`.
 .. _installing-red-linux-mac:
 
 --------------
-Installing Red
+Installing Edu
 --------------
 
-Choose one of the following commands to install Red.
+Choose one of the following commands to install Edu.
 
 To install without additional config backend support:
 
@@ -452,7 +452,7 @@ To install without additional config backend support:
     :prompts: (redenv) $
 
     python -m pip install -U pip setuptools wheel
-    python -m pip install -U Red-DiscordBot
+    python -m pip install -U Edu-DiscordBot
 
 Or, to install with PostgreSQL support:
 
@@ -460,15 +460,15 @@ Or, to install with PostgreSQL support:
     :prompts: (redenv) $
 
     python -m pip install -U pip setuptools wheel
-    python -m pip install -U "Red-DiscordBot[postgres]"
+    python -m pip install -U "Edu-DiscordBot[postgres]"
 
 
 .. note::
 
-    These commands are also used for updating Red
+    These commands are also used for updating Edu
 
 --------------------------
-Setting Up and Running Red
+Setting Up and Running Edu
 --------------------------
 
 After installation, set up your instance with the following command:
@@ -482,7 +482,7 @@ This will set the location where data will be stored, as well as your
 storage backend and the name of the instance (which will be used for
 running the bot).
 
-Once done setting up the instance, run the following command to run Red:
+Once done setting up the instance, run the following command to run Edu:
 
 .. prompt:: bash
     :prompts: (redenv) $
@@ -494,5 +494,5 @@ You can find out how to obtain a token with
 `this guide <bot_application_guide>`.
 
 .. tip::
-   If it's the first time you're using Red, you should check our `getting-started` guide
-   that will walk you through all essential information on how to interact with Red.
+   If it's the first time you're using Edu, you should check our `getting-started` guide
+   that will walk you through all essential information on how to interact with Edu.

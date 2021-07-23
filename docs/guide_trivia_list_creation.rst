@@ -28,18 +28,18 @@ be sent in the starting message (see below).
 
 .. image:: .resources/trivia/trivia_author.png
 
-The following should be placed at the top of your file, replacing "Red" 
+The following should be placed at the top of your file, replacing "Edu" 
 with your name:
 
 .. code-block:: yaml
 
-    AUTHOR: Red
+    AUTHOR: Edu
 
 If there are multiple authors, we can separate them with commas.
 
 .. code-block:: yaml
 
-    AUTHOR: Red, Rojo, Rouge
+    AUTHOR: Edu, Rojo, Rouge
 
 ---------------------
 Questions and Answers
@@ -97,7 +97,7 @@ As you've added more questions, your file should look something like this:
 
 .. code-block:: yaml
 
-    AUTHOR: Red
+    AUTHOR: Edu
     How many days are there in a regular year?:
     - 365
     - three hundred and sixty five
@@ -121,5 +121,5 @@ You can keep adding questions until you are satisfied, and then you can upload a
 play your very own trivia! See :ref:`here <trivia-command-triviaset-custom>` for more details.
 
 Still stuck? Take a look at 
-`the core trivia lists <https://github.com/Cog-Creators/Red-DiscordBot/tree/V3/develop/redbot/cogs/trivia/data/lists>`_
+`the core trivia lists <https://github.com/Cog-Creators/Edu-DiscordBot/tree/V3/develop/redbot/cogs/trivia/data/lists>`_
 for reference.

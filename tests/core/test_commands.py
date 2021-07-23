@@ -3,7 +3,7 @@ import inspect
 import pytest
 from discord.ext import commands as dpy_commands
 
-from redbot.core import commands
+from edubot.core import commands
 
 
 @pytest.fixture(scope="session")

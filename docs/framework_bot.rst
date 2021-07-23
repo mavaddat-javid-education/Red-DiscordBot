@@ -6,18 +6,18 @@ Bot
 
 .. automodule:: redbot.core.bot
 
-RedBase
+EduBase
 ^^^^^^^
 
-.. autoclass:: RedBase
+.. autoclass:: EduBase
     :members:
     :exclude-members: get_context
 
     .. automethod:: register_rpc_handler
     .. automethod:: unregister_rpc_handler
 
-Red
+Edu
 ^^^
 
-.. autoclass:: Red
+.. autoclass:: Edu
     :members:

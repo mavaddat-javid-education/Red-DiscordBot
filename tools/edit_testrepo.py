@@ -2,17 +2,17 @@
 """Script to edit test repo used by Downloader git integration tests.
 
 This script aims to help update the human-readable version of repo
-used for git integration tests in ``redbot/tests/downloader_testrepo.export``
+used for git integration tests in ``edubot/tests/downloader_testrepo.export``
 by exporting/importing it in/from provided directory.
 
 What this script does
 ---------------------
 edit_testrepo.py import:
     It inits test repo in provided directory, sets up committer data in git config,
-    imports the repo from ``redbot/tests/downloader_testrepo.export`` using
+    imports the repo from ``edubot/tests/downloader_testrepo.export`` using
     git's fast-import command and updates repo's working tree.
 edit_testrepo.py export:
-    It exports repo from provided directory into ``redbot/tests/downloader_testrepo.export``
+    It exports repo from provided directory into ``edubot/tests/downloader_testrepo.export``
     using git's fast-export. To make the file more useful for developers,
     it's called with option that adds extra directive ``original-oid <SHA1SUM>``,
     which while ignored by import, might ease up creating tests without importing the repo.
@@ -42,7 +42,7 @@ import click
 
 
 MAIN_DIRECTORY = Path(__file__).absolute().parent.parent
-TEST_REPO_EXPORT_PTH: Path = MAIN_DIRECTORY / "redbot" / "pytest" / "downloader_testrepo.export"
+TEST_REPO_EXPORT_PTH: Path = MAIN_DIRECTORY / "edubot" / "pytest" / "downloader_testrepo.export"
 
 
 class ClickCustomPath(click.Path):
@@ -148,8 +148,8 @@ def init_test_repo(destination: Path):
     git_dirparams = ("git", "-C", str(destination))
     init_commands: Tuple[Tuple[str, ...], ...] = (
         (*git_dirparams, "init"),
-        (*git_dirparams, "config", "--local", "user.name", "Cog-Creators"),
-        (*git_dirparams, "config", "--local", "user.email", "cog-creators@example.org"),
+        (*git_dirparams, "config", "--local", "user.name", "mavaddat-javid-education"),
+        (*git_dirparams, "config", "--local", "user.email", "mavaddat-javid-education@example.org"),
         (*git_dirparams, "config", "--local", "commit.gpgSign", "false"),
     )
 

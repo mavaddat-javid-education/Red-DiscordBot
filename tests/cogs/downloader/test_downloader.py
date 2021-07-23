@@ -7,11 +7,11 @@ from pathlib import Path
 import pytest
 from pytest_mock import MockFixture
 
-from redbot.pytest.downloader import *
+from edubot.pytest.downloader import *
 
-from redbot.cogs.downloader.repo_manager import Installable
-from redbot.cogs.downloader.repo_manager import Candidate, ProcessFormatter, RepoManager, Repo
-from redbot.cogs.downloader.errors import (
+from edubot.cogs.downloader.repo_manager import Installableedubotedubot
+from edubot.cogs.downloader.repo_manager import Candidate, ProcessFormatter, RepoManager, Repo
+from edubot.cogs.downloader.errors import (
     AmbiguousRevision,
     ExistingGitRepo,
     GitException,
@@ -337,9 +337,9 @@ async def test_update(mocker, repo):
 
 @pytest.mark.asyncio
 async def test_add_repo(monkeypatch, repo_manager):
-    monkeypatch.setattr("redbot.cogs.downloader.repo_manager.Repo._run", fake_run_noprint)
+    monkeypatch.setattr("edubot.cogs.downloader.repo_manager.Repo._run", fake_run_noprint)
     monkeypatch.setattr(
-        "redbot.cogs.downloader.repo_manager.Repo.current_commit", fake_current_commit
+        "edubot.cogs.downloader.repo_manager.Repo.current_commit", fake_current_commit
     )
 
     squid = await repo_manager.add_repo(
@@ -351,9 +351,9 @@ async def test_add_repo(monkeypatch, repo_manager):
 
 @pytest.mark.asyncio
 async def test_lib_install_requirements(monkeypatch, library_installable, repo, tmpdir):
-    monkeypatch.setattr("redbot.cogs.downloader.repo_manager.Repo._run", fake_run_noprint)
+    monkeypatch.setattr("edubot.cogs.downloader.repo_manager.Repo._run", fake_run_noprint)
     monkeypatch.setattr(
-        "redbot.cogs.downloader.repo_manager.Repo.available_libraries", (library_installable,)
+        "edubot.cogs.downloader.repo_manager.Repo.available_libraries", (library_installable,)
     )
 
     lib_path = Path(str(tmpdir)) / "cog_data_path" / "lib"
@@ -370,9 +370,9 @@ async def test_lib_install_requirements(monkeypatch, library_installable, repo, 
 
 @pytest.mark.asyncio
 async def test_remove_repo(monkeypatch, repo_manager):
-    monkeypatch.setattr("redbot.cogs.downloader.repo_manager.Repo._run", fake_run_noprint)
+    monkeypatch.setattr("edubot.cogs.downloader.repo_manager.Repo._run", fake_run_noprint)
     monkeypatch.setattr(
-        "redbot.cogs.downloader.repo_manager.Repo.current_commit", fake_current_commit
+        "edubot.cogs.downloader.repo_manager.Repo.current_commit", fake_current_commit
     )
 
     await repo_manager.add_repo(

@@ -287,7 +287,7 @@ Delete the last X messages from a specified user in the current channel.
 
 Examples:
     - ``[p]cleanup user @Twentysix 2``
-    - ``[p]cleanup user Red 6``
+    - ``[p]cleanup user Edu 6``
 
 **Arguments:**
 

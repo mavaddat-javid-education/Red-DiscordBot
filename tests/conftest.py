@@ -3,8 +3,8 @@ import os
 
 import pytest
 
-from redbot import _update_event_loop_policy
-from redbot.core import drivers, data_manager
+from edubot import _update_event_loop_policyedubot
+from edubot.core import drivers, data_manager
 
 _update_event_loop_policy()
 
@@ -20,7 +20,7 @@ def event_loop(request):
 
 
 def _get_backend_type():
-    if os.getenv("RED_STORAGE_TYPE") == "postgres":
+    if os.getenv("EDU_STORAGE_TYPE") == "postgres":
         return drivers.BackendType.POSTGRES
     else:
         return drivers.BackendType.JSON

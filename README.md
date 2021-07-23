@@ -21,7 +21,7 @@
   <a href="https://github.com/Rapptz/discord.py/">
      <img src="https://img.shields.io/badge/discord-py-blue.svg" alt="discord.py">
   </a>
-  <a href="https://www.patreon.com/Red_Devs">
+  <a href="https://www.patreon.com/mavaddat">
     <img src="https://img.shields.io/badge/Support-Edu!-edu.svg" alt="Support Edu on Patreon!">
   </a>
 </p>
@@ -60,7 +60,7 @@
 
 # Overview
 
-Edu is derived from the [Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) by @Cog-Creators.
+Edu is derived from the [Edu-DiscordBot](https://github.com/Cog-Creators/Edu-DiscordBot) by @Cog-Creators.
 
 [Installation](#installation) is easy, and you do **NOT** need to know anything about coding! Aside
 from installing and updating, every part of the bot can be controlled from within Discord.
@@ -88,7 +88,7 @@ community of cog repositories.**
 - [MacOS](https://edu-discordbot.readthedocs.io/en/stable/install_linux_mac.html)
 - [Most major linux distributions](https://edu-discordbot.readthedocs.io/en/stable/install_linux_mac.html)
 
-If after reading the guide you are still experiencing issues, feel free to join the [Mav Jav Discord server](https://discord.gg/KzzTBbr) or the [Official Red-DiscordBot Discord Server](https://discord.gg/red) and ask in the **#support** channel for help.
+If after reading the guide you are still experiencing issues, feel free to join the [Mav Jav Discord server](https://discord.gg/KzzTBbr) or the [Official Edu-DiscordBot Discord Server](https://discord.gg/red) and ask in the **#support** channel for help.
 
 # Plugins
 
@@ -115,7 +115,7 @@ content (cogs/plugins) for everyone to enjoy. New features are constantly added.
 consult our [guide](https://edu-discordbot.readthedocs.io/en/stable/guide_cog_creation.html) on
 building your own cogs!
 
-Join the [Mav Jav Discord server](https://discord.gg/KzzTBbr) or the [Official Red-DiscordBot Discord Server](https://discord.gg/red)!
+Join the [Mav Jav Discord server](https://discord.gg/KzzTBbr) or the [Official Edu-DiscordBot Discord Server](https://discord.gg/red)!
 
 # License
 
@@ -125,4 +125,4 @@ Artwork created by [Mavaddat](https://mavaddat.deviantart.com/) on Deviant Art f
 Bot Project.
 
 This project vendors [discord.ext.menus](https://github.com/Rapptz/discord-ext-menus) package made by Danny Y. (Rapptz) which is distributed under MIT License.
-A copy of this license can be found in the [discord-ext-menus.LICENSE](redbot/vendored/discord-ext-menus.LICENSE) file in the [redbot/vendored](redbot/vendored) folder of this repository.
+A copy of this license can be found in the [discord-ext-menus.LICENSE](edubot/vendored/discord-ext-menus.LICENSE) file in the [edubot/vendored](edubot/vendored) folder of this repository.

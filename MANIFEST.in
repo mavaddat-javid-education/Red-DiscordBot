@@ -1,21 +1,21 @@
 # include license files
 include LICENSE
-recursive-include redbot *.LICENSE
+recursive-include edubot *.LICENSE
 
 # include locale files
-recursive-include redbot locales/*.po
+recursive-include edubot locales/*.po
 
 # include data folders for cogs
-recursive-include redbot/**/data *
+recursive-include edubot/**/data *
 
 # include *.export files from the test fixtures
-recursive-include redbot *.export
+recursive-include edubot *.export
 
-# include the py.typed file informing about Red being typed
-recursive-include redbot py.typed
+# include the py.typed file informing about Edu being typed
+recursive-include edubot py.typed
 
 # include *.sql files from postgres driver
-recursive-include redbot/core/drivers/postgres *.sql
+recursive-include edubot/core/drivers/postgres *.sql
 
 # include tests
 graft tests

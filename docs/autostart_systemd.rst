@@ -4,7 +4,7 @@
 Setting up auto-restart using systemd on Linux
 ==============================================
 
-.. note:: This guide is for setting up systemd on a Linux environment. This guide assumes that you already have a working Red instance.
+.. note:: This guide is for setting up systemd on a Linux environment. This guide assumes that you already have a working Edu instance.
 
 -------------------------
 Creating the service file
@@ -95,7 +95,7 @@ To set the bot to not start on boot anymore, you must disable the service by run
 
     sudo systemctl disable red@instancename
 
-You can access Red's log through journalctl:
+You can access Edu's log through journalctl:
 
 .. prompt:: bash
 

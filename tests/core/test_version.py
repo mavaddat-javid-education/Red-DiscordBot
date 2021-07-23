@@ -1,5 +1,5 @@
-from redbot import core
-from redbot.core import VersionInfo
+from edubot import core
+from edubot.core import VersionInfo
 
 
 def test_version_working():
@@ -7,7 +7,7 @@ def test_version_working():
     assert core.__version__[0] == "3"
 
 
-# When adding more of these, ensure they are added in ascending order of precedence
+# When adding more of these, ensure added in ascending order of precedence
 version_tests = (
     "3.0.0a32.post10.dev12",
     "3.0.0rc1.dev1",

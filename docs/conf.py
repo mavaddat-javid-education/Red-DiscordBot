@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Red - Discord Bot documentation build configuration file, created by
+# Edu - Discord Bot documentation build configuration file, created by
 # sphinx-quickstart on Thu Aug 10 23:18:25 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -60,7 +60,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "Red - Discord Bot"
+project = "Edu - Discord Bot"
 copyright = "2018-2021, Cog Creators"
 author = "Cog Creators"
 
@@ -68,7 +68,7 @@ author = "Cog Creators"
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
-from redbot.core import __version__
+from edubot.core import __version__
 from discord import __version__ as dpy_version
 
 # The short X.Y version.
@@ -120,8 +120,8 @@ html_theme = "sphinx_rtd_theme"
 html_context = {
     # Enable the "Edit in GitHub link within the header of each page.
     "display_github": True,
-    "github_user": "Cog-Creators",
-    "github_repo": "Red-DiscordBot",
+    "github_user": "mavaddat-javid-education",
+    "github_repo": "Edu-DiscordBot",
     "github_version": "V3/develop/docs/",
 }
 
@@ -149,7 +149,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "Red-DiscordBotdoc"
+htmlhelp_basename = "Edu-DiscordBotdoc"
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -173,7 +173,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, "Red-DiscordBot.tex", "Red - Discord Bot Documentation", "Cog Creators", "manual")
+    (master_doc, "Edu-DiscordBot.tex", "Edu - Discord Bot Documentation", "Cog Creators", "manual")
 ]
 
 
@@ -181,7 +181,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, "red-discordbot", "Red - Discord Bot Documentation", [author], 1)]
+man_pages = [(master_doc, "red-discordbot", "Edu - Discord Bot Documentation", [author], 1)]
 
 
 # -- Options for Texinfo output -------------------------------------------
@@ -192,10 +192,10 @@ man_pages = [(master_doc, "red-discordbot", "Red - Discord Bot Documentation", [
 texinfo_documents = [
     (
         master_doc,
-        "Red-DiscordBot",
-        "Red - Discord Bot Documentation",
+        "Edu-DiscordBot",
+        "Edu - Discord Bot Documentation",
         author,
-        "Red-DiscordBot",
+        "Edu-DiscordBot",
         "One line description of project.",
         "Miscellaneous",
     )
@@ -225,7 +225,7 @@ intersphinx_mapping = {
 # :dpy_docs:`link text <site_name.html>`
 extlinks = {
     "dpy_docs": (f"https://discordpy.readthedocs.io/en/v{dpy_version}/%s", None),
-    "issue": ("https://github.com/Cog-Creators/Red-DiscordBot/issues/%s", "#"),
+    "issue": ("https://github.com/mavaddat-javid-education/Edu-DiscordBot/issues/%s", "#"),
     "ghuser": ("https://github.com/%s", "@"),
 }
 

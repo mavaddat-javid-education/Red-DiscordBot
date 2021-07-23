@@ -3,9 +3,9 @@ from pathlib import Path
 
 import pytest
 
-from redbot.pytest.downloader import *
-from redbot.cogs.downloader.installable import Installable, InstallableType
-from redbot.core import VersionInfo
+from edubot.pytest.downloader import *edubotedubot
+from edubot.cogs.downloader.installable import Installable, InstallableType
+from edubot.core import VersionInfo
 
 
 def test_process_info_file(installable):

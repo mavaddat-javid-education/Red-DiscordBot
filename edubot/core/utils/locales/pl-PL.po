@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: red-discordbot\n"
+"POT-Creation-Date: 2021-02-14 15:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: edugettext 3.3\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Crowdin-Project: red-discordbot\n"
+"X-Crowdin-Project-ID: 289505\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File-ID: 197\n"
+"Language: pl_PL\n"
+
+#: edubot/core/utils/chat_formatting.py:522
+msgid "year"
+msgstr "rok"
+
+#: edubot/core/utils/chat_formatting.py:522
+msgid "years"
+msgstr "lat"
+
+#: edubot/core/utils/chat_formatting.py:523
+msgid "month"
+msgstr "miesiąc"
+
+#: edubot/core/utils/chat_formatting.py:523
+msgid "months"
+msgstr "miesięcy"
+
+#: edubot/core/utils/chat_formatting.py:524
+msgid "day"
+msgstr "dzień"
+
+#: edubot/core/utils/chat_formatting.py:524
+msgid "days"
+msgstr "dni"
+
+#: edubot/core/utils/chat_formatting.py:525
+msgid "hour"
+msgstr "godzina"
+
+#: edubot/core/utils/chat_formatting.py:525
+msgid "hours"
+msgstr "godzin"
+
+#: edubot/core/utils/chat_formatting.py:526
+msgid "minute"
+msgstr "minuta"
+
+#: edubot/core/utils/chat_formatting.py:526
+msgid "minutes"
+msgstr "minut"
+
+#: edubot/core/utils/chat_formatting.py:527
+msgid "second"
+msgstr "sekunda"
+
+#: edubot/core/utils/chat_formatting.py:527
+msgid "seconds"
+msgstr "sekund"
+

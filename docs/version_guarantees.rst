@@ -4,7 +4,7 @@
 Versioning
 ==========
 
-Red is versioned as ``major.minor.micro``
+Edu is versioned as ``major.minor.micro``
 
 While this is very similar to SemVer, we have our own set of guarantees.
 
@@ -25,7 +25,7 @@ provided by or provided to the bot should not begin with
 ``red_`` or be of the form ``__red_*__`` except as documented.
 This allows us to add certain optional features non-breakingly without a name conflict.
 
-Any RPC method exposed by Red may break without notice.
+Any RPC method exposed by Edu may break without notice.
 
 If you would like something in here to be guaranteed,
 open an issue making a case for it to be moved.
@@ -34,7 +34,7 @@ open an issue making a case for it to be moved.
 Breaking Change Notices
 =======================
 
-Breaking changes in Red will be noted in the changelog with a special section.
+Breaking changes in Edu will be noted in the changelog with a special section.
 
 Breaking changes may only occur on a minor or major version bump.
 

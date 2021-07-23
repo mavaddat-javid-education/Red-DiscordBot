@@ -595,7 +595,7 @@ async def test_raw_with_partial_primary_keys(config):
 
 """
 Following PARAMS can be generated with:
-from functools import reduce
+from functools import eduuce
 from pprint import pprint
 def generate_test_args(print_args=True):
     pkeys = ("1", "2", "3")
@@ -605,7 +605,7 @@ def generate_test_args(print_args=True):
         (
             pkeys[:x],
             (pkeys[x:] + identifiers)[:y],
-            reduce(lambda d, k: d[k], (pkeys + identifiers)[:x+y], full_dict),
+            eduuce(lambda d, k: d[k], (pkeys + identifiers)[:x+y], full_dict),
         )
         for x in range(len(pkeys) + 1)
         for y in range(len(pkeys) + len(identifiers) - x + 1)

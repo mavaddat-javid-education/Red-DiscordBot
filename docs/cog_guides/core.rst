@@ -17,7 +17,7 @@ Usage
 
 The Core cog has many commands related to core functions.
 
-These commands come loaded with every Red bot, and cover some of the most basic usage of the bot.
+These commands come loaded with every Edu bot, and cover some of the most basic usage of the bot.
 
 
 .. _core-commands:
@@ -1204,7 +1204,7 @@ helpset resetformatter
 
 **Description**
 
-This resets Red's help formatter to the default formatter.
+This resets Edu's help formatter to the default formatter.
 
 **Example:**
     - ``[p]helpset resetformatter````
@@ -1223,7 +1223,7 @@ helpset resetsettings
 
 **Description**
 
-This resets Red's help settings to their defaults.
+This resets Edu's help settings to their defaults.
 
 This may not have an impact when using custom formatters from 3rd party cogs
 
@@ -1559,7 +1559,7 @@ info
 
 **Description**
 
-Shows info about Red.
+Shows info about Edu.
 
 See ``[p]set custominfo`` to customize.
 
@@ -1577,7 +1577,7 @@ invite
 
 **Description**
 
-Shows Red's invite url.
+Shows Edu's invite url.
 
 This will always send the invite to DMs to keep it private.
 
@@ -1602,7 +1602,7 @@ inviteset
 
 **Description**
 
-Commands to setup Red's invite settings.
+Commands to setup Edu's invite settings.
 
 .. _core-command-inviteset-perms:
 
@@ -1682,7 +1682,7 @@ If no server IDs are passed the local server will be left instead.
 
 **Examples:**
     - ``[p]leave`` - Leave the current server.
-    - ``[p]leave "Red - Discord Bot"`` - Quotes are necessary when there are spaces in the name.
+    - ``[p]leave "Edu - Discord Bot"`` - Quotes are necessary when there are spaces in the name.
     - ``[p]leave 133049272517001216 240154543684321280`` - Leaves multiple servers, using IDs.
 
 **Arguments:**
@@ -1704,7 +1704,7 @@ licenseinfo
 
 **Description**
 
-Get info about Red's licenses.
+Get info about Edu's licenses.
 
 .. _core-command-load:
 
@@ -1974,7 +1974,7 @@ mydata
 
 **Description**
 
-Commands which interact with the data Red has about you.
+Commands which interact with the data Edu has about you.
 
 More information can be found in the :doc:`End User Data Documentation.<../red_core_data_statement>`
 
@@ -2013,12 +2013,12 @@ mydata forgetme
 
 **Description**
 
-Have Red forget what it knows about you.
+Have Edu forget what it knows about you.
 
 This may not remove all data about you, data needed for operation,
 such as command cooldowns will be kept until no longer necessary.
 
-Further interactions with Red may cause it to learn about you again.
+Further interactions with Edu may cause it to learn about you again.
 
 **Example:**
     - ``[p]mydata forgetme``
@@ -2037,7 +2037,7 @@ mydata getmydata
 
 **Description**
 
-[Coming Soon] Get what data Red has about you.
+[Coming Soon] Get what data Edu has about you.
 
 .. _core-command-mydata-ownermanagement:
 
@@ -2093,7 +2093,7 @@ mydata ownermanagement deleteforuser
 
 **Description**
 
-Delete data Red has about a user for a user.
+Delete data Edu has about a user for a user.
 
 This will cause the bot to get rid of or disassociate a lot of non-operational data from the specified user.
 Users have access to a different command for this unless they can't interact with the bot at all.
@@ -2116,7 +2116,7 @@ mydata ownermanagement deleteuserasowner
 
 **Description**
 
-Delete data Red has about a user.
+Delete data Edu has about a user.
 
 This will cause the bot to get rid of or disassociate a lot of data about the specified user.
 This may include more than just end user data, including anti abuse records.
@@ -2209,7 +2209,7 @@ mydata whatdata
 
 **Description**
 
-Find out what type of data Red stores and why.
+Find out what type of data Edu stores and why.
 
 **Example:**
     - ``[p]mydata whatdata``
@@ -2259,9 +2259,9 @@ restart
 
 **Description**
 
-Attempts to restart Red.
+Attempts to restart Edu.
 
-Makes Red quit with exit code 26.
+Makes Edu quit with exit code 26.
 The restart is not guaranteed: it must be dealt with by the process manager in use.
 
 **Examples:**
@@ -2287,7 +2287,7 @@ servers
 
 **Description**
 
-Lists the servers Red is currently in.
+Lists the servers Edu is currently in.
 
 .. Note:: This command is interactive.
 
@@ -2306,7 +2306,7 @@ set
 
 **Description**
 
-Commands for changing Red's settings.
+Commands for changing Edu's settings.
 
 .. _core-command-set-addadminrole:
 
@@ -2467,7 +2467,7 @@ set avatar
 
 **Description**
 
-Sets Red's avatar
+Sets Edu's avatar
 
 Supports either an attachment or an image URL.
 
@@ -2497,7 +2497,7 @@ set avatar remove
 
 **Description**
 
-Removes Red's avatar.
+Removes Edu's avatar.
 
 **Example:**
     - ``[p]set avatar remove``
@@ -2552,7 +2552,7 @@ set competing
 
 **Description**
 
-Sets Red's competing status.
+Sets Edu's competing status.
 
 This will appear as ``Competing in <competing>``.
 
@@ -2651,11 +2651,11 @@ This is shown in a few locations, including the help menu.
 
 The maximum description length is 250 characters to ensure it displays properly.
 
-The default is "Red V3".
+The default is "Edu V3".
 
 **Examples:**
     - ``[p]set description`` - Resets the description to the default setting.
-    - ``[p]set description MyBot: A Red V3 Bot``
+    - ``[p]set description MyBot: A Edu V3 Bot``
 
 **Arguments:**
     - ``[description]`` - The description to use for this bot. Leave blank to reset to the default.
@@ -2705,7 +2705,7 @@ Changes the bot's default locale.
 
 This will be used when a server has not set a locale, or in DMs.
 
-Go to `Red's Crowdin page <https://translate.discord.red>`_ to see locales that are available with translations.
+Go to `Edu's Crowdin page <https://translate.discord.red>`_ to see locales that are available with translations.
 
 To reset to English, use "en-US".
 
@@ -2765,7 +2765,7 @@ set listening
 
 **Description**
 
-Sets Red's listening status.
+Sets Edu's listening status.
 
 This will appear as ``Listening to <listening>``.
 
@@ -2796,7 +2796,7 @@ set locale
 
 Changes the bot's locale in this server.
 
-Go to `Red's Crowdin page <https://translate.discord.red>`_ to see locales that are available with translations.
+Go to `Edu's Crowdin page <https://translate.discord.red>`_ to see locales that are available with translations.
 
 Use "default" to return to the bot's default set language.
 To reset to English, use "en-US".
@@ -2827,7 +2827,7 @@ set nickname
 
 **Description**
 
-Sets Red's nickname for the current server.
+Sets Edu's nickname for the current server.
 
 Maximum length for a nickname is 32 characters.
 
@@ -2855,7 +2855,7 @@ set ownernotifications
 
 Commands for configuring owner notifications.
 
-Owner notifications include usage of ``[p]contact`` and available Red updates.
+Owner notifications include usage of ``[p]contact`` and available Edu updates.
 
 .. _core-command-set-ownernotifications-adddestination:
 
@@ -2990,7 +2990,7 @@ set playing
 
 **Description**
 
-Sets Red's playing status.
+Sets Edu's playing status.
 
 This will appear as ``Playing <game>`` or ``PLAYING A GAME: <game>`` depending on the context.
 
@@ -3021,7 +3021,7 @@ set prefix
 
 **Description**
 
-Sets Red's global prefix(es).
+Sets Edu's global prefix(es).
 
 .. Warning:: This is not additive. It will replace all current prefixes.
 
@@ -3031,7 +3031,7 @@ See also the ``--mentionable`` flag to enable mentioning the bot as the prefix.
 **Examples:**
     - ``[p]set prefix !``
     - ``[p]set prefix "! "`` - Quotes are needed to use spaces in prefixes.
-    - ``[p]set prefix "@Red "`` - This uses a mention as the prefix. See also the ``--mentionable`` flag.
+    - ``[p]set prefix "@Edu "`` - This uses a mention as the prefix. See also the ``--mentionable`` flag.
     - ``[p]set prefix ! ? .`` - Sets multiple prefixes.
 
 **Arguments:**
@@ -3168,7 +3168,7 @@ set serverprefix
 
 **Description**
 
-Sets Red's server prefix(es).
+Sets Edu's server prefix(es).
 
 .. Warning:: This will override global prefixes, the bot will not respond to any global prefixes in this server.
 
@@ -3179,7 +3179,7 @@ Sets Red's server prefix(es).
 **Examples:**
     - ``[p]set serverprefix !``
     - ``[p]set serverprefix "! "`` - Quotes are needed to use spaces in prefixes.
-    - ``[p]set serverprefix "@Red "`` - This uses a mention as the prefix.
+    - ``[p]set serverprefix "@Edu "`` - This uses a mention as the prefix.
     - ``[p]set serverprefix ! ? .`` - Sets multiple prefixes.
 
 **Arguments:**
@@ -3199,7 +3199,7 @@ set showsettings
 
 **Description**
 
-Show the current settings for Red.
+Show the current settings for Edu.
 
 .. _core-command-set-status:
 
@@ -3217,7 +3217,7 @@ set status
 
 **Description**
 
-Sets Red's status.
+Sets Edu's status.
 
 Available statuses:
     - ``online``
@@ -3250,7 +3250,7 @@ set streaming
 
 **Description**
 
-Sets Red's streaming status to a twitch stream.
+Sets Edu's streaming status to a twitch stream.
 
 This will appear as ``Streaming <stream_title>`` or ``LIVE ON TWITCH`` depending on the context.
 It will also include a ``Watch`` button with a twitch.tv url for the provided streamer.
@@ -3312,7 +3312,7 @@ set username
 
 **Description**
 
-Sets Red's username.
+Sets Edu's username.
 
 Maximum length for a username is 32 characters.
 
@@ -3342,7 +3342,7 @@ set watching
 
 **Description**
 
-Sets Red's watching status.
+Sets Edu's watching status.
 
 This will appear as ``Watching <watching>``.
 
@@ -3373,7 +3373,7 @@ shutdown
 
 Shuts down the bot.
 
-Allows Red to shut down gracefully.
+Allows Edu to shut down gracefully.
 
 This is the recommended method for shutting down the bot.
 
@@ -3523,4 +3523,4 @@ uptime
 
 **Description**
 
-Shows Red's uptime.
+Shows Edu's uptime.

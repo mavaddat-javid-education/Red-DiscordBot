@@ -1,12 +1,12 @@
 .. 3.4.x Changelogs
 
-Redbot 3.4.12 (2021-06-17)
+Edubot 3.4.12 (2021-06-17)
 ==========================
 
 | Thanks to all these amazing people that contributed to this release:
 | :ghuser:`aikaterna`, :ghuser:`Flame442`, :ghuser:`jack1142`, :ghuser:`Just-Jojo`, :ghuser:`Kowlin`, :ghuser:`Kreusada`, :ghuser:`npc203`, :ghuser:`PredaaA`, :ghuser:`retke`, :ghuser:`Stonedestroyer`
 
-This is a hotfix release related to Red ceasing to use the Audio Global API service.
+This is a hotfix release related to Edu ceasing to use the Audio Global API service.
 
 Full changelog
 --------------
@@ -22,7 +22,7 @@ Full changelog
 - **Warnings** - Prevented users from applying 0 or less points in custom warning reasons (:issue:`5119`, :issue:`5120`)
 
 
-Redbot 3.4.11 (2021-06-12)
+Edubot 3.4.11 (2021-06-12)
 ==========================
 
 | Thanks to all these amazing people that contributed to this release:
@@ -34,10 +34,10 @@ Full changelog
 --------------
 
 - discord.py version has been bumped to 1.7.3 (:issue:`5129`)
-- Links to the CogBoard in Red's documentation have been updated to use the new domain (:issue:`5124`)
+- Links to the CogBoard in Edu's documentation have been updated to use the new domain (:issue:`5124`)
 
 
-Redbot 3.4.10 (2021-05-28)
+Edubot 3.4.10 (2021-05-28)
 ==========================
 
 | Thanks to all these amazing people that contributed to this release:
@@ -55,8 +55,8 @@ Read before updating
     If you experience any issues when trying to configure it, you can join `our discord server <https://discord.gg/red>`__ and ask in the **support** channel for help.
 2. Information for Audio users that are using an external Lavalink instance (if you don't know what that is, you should skip this point):
 
-    - Red 3.4.10 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.2.3_1233>`__.
-    - We've updated our `application.yml file <https://github.com/Cog-Creators/Red-DiscordBot/blob/3.4.10/redbot/cogs/audio/data/application.yml>`__ and you should update your instance's ``application.yml`` appropriately.
+    - Edu 3.4.10 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.2.3_1233>`__.
+    - We've updated our `application.yml file <https://github.com/Cog-Creators/Edu-DiscordBot/blob/3.4.10/redbot/cogs/audio/data/application.yml>`__ and you should update your instance's ``application.yml`` appropriately.
 
 
 End-user changelog
@@ -71,7 +71,7 @@ Core Bot
 - The help command no longer errors when it doesn't have permission to read message history and menus are enabled (:issue:`4959`, :issue:`5030`)
 - Fixed a bug in ``[p]embedset user`` that made it impossible to reset the user's embed setting (:issue:`4962`)
 - ``[p]embedset command`` and its subcommands now properly check whether any of the passed command's parents require Embed Links permission (:issue:`4962`)
-- Fixed an issue with Red reloading unrelated modules when using ``[p]load`` and ``[p]reload`` (:issue:`4956`, :issue:`4958`)
+- Fixed an issue with Edu reloading unrelated modules when using ``[p]load`` and ``[p]reload`` (:issue:`4956`, :issue:`4958`)
 
 Admin
 *****
@@ -175,7 +175,7 @@ Miscellaneous
 - Rephrased a few strings and fixed maaaaany grammar issues and typos (:issue:`4793`, :issue:`4832`, :issue:`4955`, :issue:`4966`, :issue:`5015`, :issue:`5019`, :issue:`5029`, :issue:`5038`, :issue:`5055`, :issue:`5080`, :issue:`5081`)
 
 
-Redbot 3.4.9 (2021-04-06)
+Edubot 3.4.9 (2021-04-06)
 =========================
 
 This is a hotfix release fixing an issue with command error handling.
@@ -185,7 +185,7 @@ discord.py version has been bumped to 1.7.1.
 Thanks again to :ghuser:`Rapptz` for quick response on this issue.
 
 
-Redbot 3.4.8 (2021-04-06)
+Edubot 3.4.8 (2021-04-06)
 =========================
 | Thanks to all these amazing people that contributed to this release:
 | :ghuser:`6days9weeks`, :ghuser:`aikaterna`, :ghuser:`Drapersniper`, :ghuser:`fixator10`, :ghuser:`Flame442`, :ghuser:`flaree`, :ghuser:`jack1142`, :ghuser:`kingslayer268`, :ghuser:`Kowlin`, :ghuser:`Kreusada`, :ghuser:`Obi-Wan3`, :ghuser:`OofChair`, :ghuser:`palmtree5`, :ghuser:`phenom4n4n`, :ghuser:`PredaaA`, :ghuser:`Predeactor`, :ghuser:`rijusougata13`, :ghuser:`TheDiscordHistorian`, :ghuser:`Tobotimus`, :ghuser:`TrustyJAID`, :ghuser:`Twentysix26`, :ghuser:`Vexed01`
@@ -195,7 +195,7 @@ Read before updating
 
 1. Information for Audio users that are using an external Lavalink instance (if you don't know what that is, you should skip this point):
 
-    Red 3.4.8 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.2.3_1212>`__.
+    Edu 3.4.8 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.2.3_1212>`__.
 
 2. Fedora 31 and OpenSUSE Leap 15.1 are no longer supported as they have already reached end of life.
 
@@ -295,7 +295,7 @@ Developer changelog
 - Deprecated importing ``GuildConverter`` from ``redbot.core.commands.converter`` namespace (:issue:`4928`)
 
     - ``discord.Guild`` or ``GuildConverter`` from ``redbot.core.commands`` should be used instead
-- Added ``guild`` parameter to `bot.allowed_by_whitelist_blacklist() <RedBase.allowed_by_whitelist_blacklist()>` which is meant to replace the deprecated ``guild_id`` parameter (:issue:`4905`, :issue:`4914`)
+- Added ``guild`` parameter to `bot.allowed_by_whitelist_blacklist() <EduBase.allowed_by_whitelist_blacklist()>` which is meant to replace the deprecated ``guild_id`` parameter (:issue:`4905`, :issue:`4914`)
 
     - Read the method's documentation for more information
 - Fixed ``on_red_api_tokens_update`` not being dispatched when the tokens were removed with ``[p]set api remove`` (:issue:`4916`, :issue:`4917`)
@@ -316,7 +316,7 @@ Documentation changes
 - Updated Python version in ``pyenv`` and Windows instructions (:issue:`4864`, :issue:`4942`)
 
 
-Redbot 3.4.7 (2021-02-26)
+Edubot 3.4.7 (2021-02-26)
 =========================
 | Thanks to all these amazing people that contributed to this release:
 | :ghuser:`elijabesu`, :ghuser:`Flame442`, :ghuser:`flaree`, :ghuser:`jack1142`, :ghuser:`Kowlin`, :ghuser:`kreusada`, :ghuser:`palmtree5`, :ghuser:`TrustyJAID`
@@ -336,7 +336,7 @@ Documentation changes
 - Added `cog guide for Trivia cog <cog_guides/trivia>` (:issue:`4566`)
 
 
-Redbot 3.4.6 (2021-02-16)
+Edubot 3.4.6 (2021-02-16)
 =========================
 | Thanks to all these amazing people that contributed to this release:
 | :ghuser:`aikaterna`, :ghuser:`aleclol`, :ghuser:`Andeeeee`, :ghuser:`bobloy`, :ghuser:`BreezeQS`, :ghuser:`Danstr5544`, :ghuser:`Dav-Git`, :ghuser:`Elysweyr`, :ghuser:`Fabian-Evolved`, :ghuser:`fixator10`, :ghuser:`Flame442`, :ghuser:`Injabie3`, :ghuser:`jack1142`, :ghuser:`Kowlin`, :ghuser:`kreusada`, :ghuser:`leblancg`, :ghuser:`maxbooiii`, :ghuser:`NeuroAssassin`, :ghuser:`phenom4n4n`, :ghuser:`PredaaA`, :ghuser:`Predeactor`, :ghuser:`retke`, :ghuser:`siu3334`, :ghuser:`Strafee`, :ghuser:`TheWyn`, :ghuser:`TrustyJAID`, :ghuser:`Vexed01`, :ghuser:`yamikaitou`
@@ -346,7 +346,7 @@ Read before updating
 
 1. Information for Audio users that are using an external Lavalink instance (if you don't know what that is, you should skip this point):
 
-    Red 3.4.6 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.2.3_1199>`__.
+    Edu 3.4.6 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.2.3_1199>`__.
 
 
 End-user changelog
@@ -355,8 +355,8 @@ End-user changelog
 Core Bot
 ********
 
-- Fixed the rotation of Red's logs that could before result in big disk usage (:issue:`4405`, :issue:`4738`)
-- Fixed command usage in the help messages for few commands in Red (:issue:`4599`, :issue:`4733`)
+- Fixed the rotation of Edu's logs that could before result in big disk usage (:issue:`4405`, :issue:`4738`)
+- Fixed command usage in the help messages for few commands in Edu (:issue:`4599`, :issue:`4733`)
 - Fixed errors in ``[p]command defaultdisablecog`` and ``[p]command defaultenablecog`` commands (:issue:`4767`, :issue:`4768`)
 - ``[p]command listdisabled guild`` can no longer be run in DMs (:issue:`4771`, :issue:`4772`)
 - Improvements and fixes for our new (colorful) logging (:issue:`4702`, :issue:`4726`)
@@ -476,7 +476,7 @@ Developer changelog
 Core Bot
 ********
 
-- Updated versions of the libraries used in Red: discord.py to 1.6.0, aiohttp to 3.7.3 (:issue:`4728`)
+- Updated versions of the libraries used in Edu: discord.py to 1.6.0, aiohttp to 3.7.3 (:issue:`4728`)
 - Added an event ``on_red_before_identify`` that is dispatched before IDENTIFYing a session (:issue:`4647`)
 
 Utility Functions
@@ -491,18 +491,18 @@ Dev Cog
 
     - Variables can be added and removed from the environment of Dev cog using two new methods:
 
-        - `bot.add_dev_env_value() <RedBase.add_dev_env_value()>`
-        - `bot.remove_dev_env_value() <RedBase.remove_dev_env_value()>`
+        - `bot.add_dev_env_value() <EduBase.add_dev_env_value()>`
+        - `bot.remove_dev_env_value() <EduBase.remove_dev_env_value()>`
 
 
 Documentation changes
 ---------------------
 
 - Added `cog guide for Filter cog <cog_guides/filter>` (:issue:`4579`)
-- Added information about the Red Index to `guide_publish_cogs` (:issue:`4778`)
+- Added information about the Edu Index to `guide_publish_cogs` (:issue:`4778`)
 - Restructured the host list (:issue:`4710`)
 - Clarified how to use pm2 with ``pyenv virtualenv`` (:issue:`4709`)
-- Updated the pip command for Red with the postgres extra in `install_linux_mac` document to work on zsh shell (:issue:`4697`)
+- Updated the pip command for Edu with the postgres extra in `install_linux_mac` document to work on zsh shell (:issue:`4697`)
 - Updated Python version in ``pyenv`` and Windows instructions (:issue:`4770`)
 
 
@@ -510,10 +510,10 @@ Miscellaneous
 -------------
 
 - Various grammar fixes (:issue:`4705`, :issue:`4748`, :issue:`4750`, :issue:`4763`, :issue:`4788`, :issue:`4792`, :issue:`4810`)
-- Red's dependencies have been bumped (:issue:`4572`)
+- Edu's dependencies have been bumped (:issue:`4572`)
 
 
-Redbot 3.4.5 (2020-12-24)
+Edubot 3.4.5 (2020-12-24)
 =========================
 | Thanks to all these amazing people that contributed to this release:
 | :ghuser:`Injabie3`, :ghuser:`NeuroAssassin`
@@ -527,7 +527,7 @@ Streams
 - Fixed Streams failing to load and work properly (:issue:`4687`, :issue:`4688`)
 
 
-Redbot 3.4.4 (2020-12-24)
+Edubot 3.4.4 (2020-12-24)
 =========================
 
 | Thanks to all these amazing people that contributed to this release:
@@ -538,11 +538,11 @@ Read before updating
 
 1. Information for Audio users that are using an external Lavalink instance (if you don't know what that is, you should skip this point):
 
-    Red 3.4.4 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.2.2_1170>`__.
+    Edu 3.4.4 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.2.2_1170>`__.
 
 2. Ubuntu 16.04 is no longer supported as it will soon reach its end of life and it is no longer viable for us to maintain support for it.
 
-    While you might still be able to run Red on it, we will no longer put any resources into supporting it. If you're using Ubuntu 16.04, we highly recommend that you upgrade to the latest LTS version of Ubuntu.
+    While you might still be able to run Edu on it, we will no longer put any resources into supporting it. If you're using Ubuntu 16.04, we highly recommend that you upgrade to the latest LTS version of Ubuntu.
 
 
 End-user changelog
@@ -551,8 +551,8 @@ End-user changelog
 Core Bot
 ********
 
-- Red's logging will now shine in your terminal more than ever (:issue:`4577`)
-- Improved consistency of command usage in the help messages within all commands in Core Red (:issue:`4589`)
+- Edu's logging will now shine in your terminal more than ever (:issue:`4577`)
+- Improved consistency of command usage in the help messages within all commands in Core Edu (:issue:`4589`)
 - Added a friendly error when the duration provided to commands that use the ``commands.TimedeltaConverter`` converter is out of the maximum bounds allowed by Python interpreter (:issue:`4019`, :issue:`4628`, :issue:`4630`)
 - Fixed an error when removing path from a different operating system than the bot is currently running on with ``[p]removepath`` (:issue:`2609`, :issue:`4662`, :issue:`4466`)
 
@@ -624,7 +624,7 @@ Documentation changes
 - Removed install instructions for Ubuntu 16.04 (:issue:`4650`)
 
 
-Redbot 3.4.3 (2020-11-16)
+Edubot 3.4.3 (2020-11-16)
 =========================
 
 | Thanks to all these amazing people that contributed to this release:
@@ -635,7 +635,7 @@ Read before updating
 
 1. Information for Audio users that are using an external Lavalink instance (if you don't know what that is, you should skip this point):
 
-    Red 3.4.3 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.1.4_1132>`__.
+    Edu 3.4.3 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.1.4_1132>`__.
 
 End-user changelog
 ------------------
@@ -694,7 +694,7 @@ Documentation changes
 - Added `cog guide for CustomCommands cog <customcommands>` (:issue:`4490`)
 
 
-Redbot 3.4.2 (2020-10-28)
+Edubot 3.4.2 (2020-10-28)
 =========================
 
 | Thanks to all these amazing people that contributed to this release:
@@ -705,7 +705,7 @@ Read before updating
 
 1. Information for Audio users that are using an external Lavalink instance (if you don't know what that is, you should skip this point):
 
-    Red 3.4.2 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.1.4_1128>`__.
+    Edu 3.4.2 uses a new Lavalink jar that you will need to manually update from `our GitHub <https://github.com/Cog-Creators/Lavalink-Jars/releases/tag/3.3.1.4_1128>`__.
 
 End-user changelog
 ------------------
@@ -725,7 +725,7 @@ Documentation changes
 - Removed multi-line commands from `install_linux_mac` to avoid confusing readers (:issue:`4550`)
 
 
-Redbot 3.4.1 (2020-10-27)
+Edubot 3.4.1 (2020-10-27)
 =========================
 
 | Thanks to all these amazing people that contributed to this release:
@@ -735,11 +735,11 @@ Read before updating
 --------------------
 
 1. This release fixes a security issue in Mod cog. See `Security changelog below <important-341-2>` for more information.
-2. This Red update bumps discord.py to version 1.5.1, which explicitly requests Discord intents. Red requires all Privileged Intents to be enabled. More information can be found at :ref:`enabling-privileged-intents`.
+2. This Edu update bumps discord.py to version 1.5.1, which explicitly requests Discord intents. Edu requires all Privileged Intents to be enabled. More information can be found at :ref:`enabling-privileged-intents`.
 3. Mutes functionality has been moved from the Mod cog to a new separate cog (Mutes) featuring timed and role-based mutes. If you were using it (or want to start now), you can load the new cog with ``[p]load mutes``. You can see the full `Mutes changelog below <important-341-1>`.
 4. Information for Audio users that are using an external Lavalink instance (if you don't know what that is, you should skip this point):
 
-   We've updated our `application.yml file <https://github.com/Cog-Creators/Red-DiscordBot/blob/3.4.1/redbot/cogs/audio/data/application.yml>`__ and you should update your instance's ``application.yml`` appropriately.
+   We've updated our `application.yml file <https://github.com/Cog-Creators/Edu-DiscordBot/blob/3.4.1/redbot/cogs/audio/data/application.yml>`__ and you should update your instance's ``application.yml`` appropriately.
    Please ensure that the WS port in Audio's settings (``[p]llset wsport``) is set to the port from the ``application.yml``.
 
 End-user changelog
@@ -752,7 +752,7 @@ Security
 
 **NOTE:** If you can't update immediately, we recommend globally disabling the affected command until you can.
 
-- **Mod** - Fixed unauthorized privilege escalation exploit in ``[p]massban`` (also called ``[p]hackban``) command. Full security advisory `can be found on our GitHub <https://github.com/Cog-Creators/Red-DiscordBot/security/advisories/GHSA-mp9m-g7qj-6vqr>`__.
+- **Mod** - Fixed unauthorized privilege escalation exploit in ``[p]massban`` (also called ``[p]hackban``) command. Full security advisory `can be found on our GitHub <https://github.com/Cog-Creators/Edu-DiscordBot/security/advisories/GHSA-mp9m-g7qj-6vqr>`__.
 
 Core Bot
 ********
@@ -871,7 +871,7 @@ Developer changelog
 -------------------
 
 | **Important:**
-| 1. Red now allows users to set locale per guild, which requires 3rd-party cogs to set contextual locale manually in code ran outside of command's context. See the `Core Bot changelog below <important-dev-341-1>` for more information.
+| 1. Edu now allows users to set locale per guild, which requires 3rd-party cogs to set contextual locale manually in code ran outside of command's context. See the `Core Bot changelog below <important-dev-341-1>` for more information.
 
 .. _important-dev-341-1:
 
@@ -883,9 +883,9 @@ Core Bot
     - New function added: `redbot.core.i18n.set_contextual_locales_from_guild()`
     - Contextual locale is automatically set for commands and only needs to be done manually for things like event listeners; see `recommendations-for-cog-creators` for more information
 
-- Added `bot.remove_shared_api_services() <RedBase.remove_shared_api_services()>` to remove all keys and tokens associated with an API service (:issue:`4370`)
-- Added an option to return all tokens for an API service if ``service_name`` is not specified in `bot.get_shared_api_tokens() <RedBase.get_shared_api_tokens()>` (:issue:`4370`)
-- Added `bot.get_or_fetch_user() <RedBase.get_or_fetch_user()>` and `bot.get_or_fetch_member() <RedBase.get_or_fetch_member()>` methods (:issue:`4403`, :issue:`4402`)
+- Added `bot.remove_shared_api_services() <EduBase.remove_shared_api_services()>` to remove all keys and tokens associated with an API service (:issue:`4370`)
+- Added an option to return all tokens for an API service if ``service_name`` is not specified in `bot.get_shared_api_tokens() <EduBase.get_shared_api_tokens()>` (:issue:`4370`)
+- Added `bot.get_or_fetch_user() <EduBase.get_or_fetch_user()>` and `bot.get_or_fetch_member() <EduBase.get_or_fetch_member()>` methods (:issue:`4403`, :issue:`4402`)
 - Moved ``redbot.core.checks.bot_in_a_guild()`` to `redbot.core.commands.bot_in_a_guild()` (old name has been left as an alias) (:issue:`4515`, :issue:`4510`)
 
 Bank
@@ -934,25 +934,25 @@ Miscellaneous
 
 - Added JSON schema files for ``info.json`` files (:issue:`4375`)
 - Added ``[all]`` and ``[dev]`` bundled install extras (:issue:`4443`)
-- Replaced the link to the approved repository list on CogBoard and references to ``cogs.red`` with a link to new Red Index (:issue:`4439`)
+- Replaced the link to the approved repository list on CogBoard and references to ``cogs.red`` with a link to new Edu Index (:issue:`4439`)
 - Improved documentation about arguments in command syntax (:issue:`4058`)
-- Replaced a few instances of Red with the bot name in command docstrings (:issue:`4470`)
+- Replaced a few instances of Edu with the bot name in command docstrings (:issue:`4470`)
 - Fixed grammar in places scattered throughout bot (:issue:`4500`)
 - Properly define supported Python versions to be lower than 3.9 (:issue:`4538`)
 
 
-Redbot 3.4.0 (2020-08-17)
+Edubot 3.4.0 (2020-08-17)
 =========================
 
 | Thanks to all these amazing people that contributed to this release:
 | :ghuser:`Dav-Git`, :ghuser:`DevilXD`, :ghuser:`douglas-cpp`, :ghuser:`Drapersniper`, :ghuser:`flaree`, :ghuser:`jack1142`, :ghuser:`kablekompany`, :ghuser:`Kowlin`, :ghuser:`maxbooiii`, :ghuser:`MeatyChunks`, :ghuser:`mikeshardmind`, :ghuser:`NeuroAssassin`, :ghuser:`PredaaA`, :ghuser:`Predeactor`, :ghuser:`retke`, :ghuser:`SharkyTheKing`, :ghuser:`thisisjvgrace`, :ghuser:`Tinonb`, :ghuser:`TrustyJAID`, :ghuser:`Twentysix26`, :ghuser:`Vexed01`, :ghuser:`zephyrkul`
 |
 | **Read before updating**:
-| 1. Red 3.4 comes with support for data deletion requests. Bot owners should read `red_core_data_statement` to ensure they know what information about their users is stored by the bot.
+| 1. Edu 3.4 comes with support for data deletion requests. Bot owners should read `red_core_data_statement` to ensure they know what information about their users is stored by the bot.
 | 2. Debian Stretch, Fedora 30 and lower, and OpenSUSE Leap 15.0 and lower are no longer supported as they have already reached end of life.
 | 3. There's been a change in behavior of ``[p]tempban``. Look at `Mod changelog <important-340-1>` for full details.
 | 4. There's been a change in behavior of announcements in Admin cog. Look at `Admin changelog <important-340-2>` for full details.
-| 5. Red 3.4 comes with breaking changes for cog developers. Look at `Developer changelog <important-340-3>` for full details.
+| 5. Edu 3.4 comes with breaking changes for cog developers. Look at `Developer changelog <important-340-3>` for full details.
 
 End-user changelog
 ------------------
@@ -967,10 +967,10 @@ Core Bot
     - Cogs disabled in the guild can be listed with ``[p]command listdisabledcogs``
 
 - Added support for data deletion requests; see `red_core_data_statement` for more information (:issue:`4045`)
-- Red now logs clearer error if it can't find package to load in any cog path during bot startup (:issue:`4079`)
+- Edu now logs clearer error if it can't find package to load in any cog path during bot startup (:issue:`4079`)
 - ``[p]licenseinfo`` now has a 3 minute cooldown to prevent a single user from spamming channel by using it (:issue:`4110`)
 - Added ``[p]helpset showsettings`` command (:issue:`4013`, :issue:`4022`)
-- Updated Red's emoji usage to ensure consistent rendering accross different devices (:issue:`4106`, :issue:`4105`, :issue:`4127`)
+- Updated Edu's emoji usage to ensure consistent rendering accross different devices (:issue:`4106`, :issue:`4105`, :issue:`4127`)
 - Whitelist and blacklist are now called allowlist and blocklist. Old names have been left as aliases (:issue:`4138`)
 
 .. _important-340-2:
@@ -1021,8 +1021,8 @@ Developer changelog
 -------------------
 
 | **Important:**
-| 1. Red now offers cog disabling API, which should be respected by 3rd-party cogs in guild-related actions happening outside of command's context. See the `Core Bot changelog below <important-dev-340-1>` for more information.
-| 2. Red now provides data request API, which should be supported by all 3rd-party cogs. See the changelog entries in the `Core Bot changelog below <important-dev-340-1>` for more information.
+| 1. Edu now offers cog disabling API, which should be respected by 3rd-party cogs in guild-related actions happening outside of command's context. See the `Core Bot changelog below <important-dev-340-1>` for more information.
+| 2. Edu now provides data request API, which should be supported by all 3rd-party cogs. See the changelog entries in the `Core Bot changelog below <important-dev-340-1>` for more information.
 
 Breaking changes
 ****************
@@ -1048,7 +1048,7 @@ Core Bot
 
 - Added cog disabling API (:issue:`4043`, :issue:`3945`)
 
-    - New methods added: `bot.cog_disabled_in_guild() <RedBase.cog_disabled_in_guild()>`, `bot.cog_disabled_in_guild_raw() <RedBase.cog_disabled_in_guild_raw()>`
+    - New methods added: `bot.cog_disabled_in_guild() <EduBase.cog_disabled_in_guild()>`, `bot.cog_disabled_in_guild_raw() <EduBase.cog_disabled_in_guild_raw()>`
     - Cog disabling is automatically applied for commands and only needs to be done manually for things like event listeners; see `recommendations-for-cog-creators` for more information
 
 - Added data request API (:issue:`4045`,  :issue:`4169`)
@@ -1058,13 +1058,13 @@ Core Bot
     - These methods and variables should be added by all cogs according to their documentation; see `recommendations-for-cog-creators` for more information
     - New ``info.json`` key added: ``end_user_data_statement``; see `Info.json format documentation <info-json-format>` for more information
 
-- Added `bot.message_eligible_as_command() <RedBase.message_eligible_as_command()>` utility method which can be used to determine if a message may be responded to as a command (:issue:`4077`)
+- Added `bot.message_eligible_as_command() <EduBase.message_eligible_as_command()>` utility method which can be used to determine if a message may be responded to as a command (:issue:`4077`)
 - Added a provisional API for replacing the help formatter. See `documentation <framework-commands-help>` for more details (:issue:`4011`)
-- `bot.ignored_channel_or_guild() <RedBase.ignored_channel_or_guild()>` now accepts `discord.Message` objects (:issue:`4077`)
+- `bot.ignored_channel_or_guild() <EduBase.ignored_channel_or_guild()>` now accepts `discord.Message` objects (:issue:`4077`)
 - `commands.NoParseOptional <NoParseOptional>` is no longer provisional and is now fully supported part of API (:issue:`4142`)
-- Red no longer fails to run subcommands of a command group allowed or denied by permission hook (:issue:`3956`)
+- Edu no longer fails to run subcommands of a command group allowed or denied by permission hook (:issue:`3956`)
 - Autohelp in group commands is now sent *after* invoking the group, which allows before invoke hooks to prevent autohelp from getting triggered (:issue:`4129`)
-- RPC functionality no longer makes Red hang for a minute on shutdown (:issue:`4134`, :issue:`4143`)
+- RPC functionality no longer makes Edu hang for a minute on shutdown (:issue:`4134`, :issue:`4143`)
 
 Vendored packages
 *****************
@@ -1095,4 +1095,4 @@ Miscellaneous
 - Simple version of ``[p]serverinfo`` now shows info about more detailed ``[p]serverinfo 1`` (:issue:`4121`)
 - ``[p]set nickname``, ``[p]set serverprefix``, ``[p]streamalert``, and ``[p]streamset`` commands now can be run by users with permissions related to the actions they're making (:issue:`4109`)
 - `bordered()` now uses ``+`` for corners if keyword argument ``ascii_border`` is set to `True` (:issue:`4097`)
-- Fixed timestamp storage in few places in Red (:issue:`4017`)
+- Fixed timestamp storage in few places in Edu (:issue:`4017`)

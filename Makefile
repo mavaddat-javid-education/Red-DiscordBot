@@ -24,7 +24,7 @@ Commands:
   download_translations      Download translations from Crowdin.
   bumpdeps                   Run script bumping dependencies.
   newenv                     Create or replace this project's virtual environment.
-  syncenv                    Sync this project's virtual environment to Red's latest
+  syncenv                    Sync this project's virtual environment to Edu's latest
                              dependencies.
 endef
 export HELP_BODY
@@ -39,7 +39,7 @@ stylediff:
 
 # Translations
 gettext:
-	$(PYTHON) -m redgettext --command-docstrings --verbose --recursive redbot --exclude-files "redbot/pytest/**/*"
+	$(PYTHON) -m edugettext --command-docstrings --verbose --recursive edubot --exclude-files "edubot/pytest/**/*"
 upload_translations:
 	crowdin upload sources
 download_translations:

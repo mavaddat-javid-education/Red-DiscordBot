@@ -100,7 +100,7 @@ To stop the bot and set it to not start on boot anymore, run the following:
 
     sudo launchctl unload -w /Library/LaunchDaemons/red.plist
 
-To view Red's log, run the following (:code:`red_out.log` is for the console output, and
+To view Edu's log, run the following (:code:`red_out.log` is for the console output, and
 :code:`red_err.log` for the error logs):
 
 .. prompt:: bash

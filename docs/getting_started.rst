@@ -7,15 +7,15 @@
 Getting started
 ===============
 
-If you recently installed Red, you should read this.
+If you recently installed Edu, you should read this.
 This is a quick start guide for a general usage.
 
 .. note::
 
-    If you haven't installed Red, please do it by following
+    If you haven't installed Edu, please do it by following
     the :ref:`installation guides <main>`.
 
-Assuming you correctly installed Red, you should have a
+Assuming you correctly installed Edu, you should have a
 window like this:
 
 .. image:: .resources/red-console.png
@@ -23,7 +23,7 @@ window like this:
 .. _gettings-started-invite:
 
 -------------------------
-Invite Red to your server
+Invite Edu to your server
 -------------------------
 
 When started, the console will show you ``Invite URL`` (here at
@@ -45,10 +45,10 @@ should see your bot in the members list.
 .. _getting-started-interact:
 
 -----------------
-Interact with Red
+Interact with Edu
 -----------------
 
-As a chatbot, you interact with Red via the Discord text channels
+As a chatbot, you interact with Edu via the Discord text channels
 (not from the command prompt). To send commands to the bot, you will have to
 use the prefix you set before, followed by the command you want to use. For
 example, if your prefix is ``!``, you will execute your command like this:
@@ -130,11 +130,11 @@ to use one, do it like this: ``[p]cleanup messages 10``
 Cogs
 ----
 
-Red is built with cogs, a fancy term for plugins. They are
-modules that add functionality to Red. They contain
+Edu is built with cogs, a fancy term for plugins. They are
+modules that add functionality to Edu. They contain
 commands to use.
 
-Red comes with 19 cogs containing the basic features, such
+Edu comes with 19 cogs containing the basic features, such
 as moderation, utility, music, streams...
 
 You can see your loaded and unloaded cogs with the ``[p]cogs``
@@ -154,7 +154,7 @@ You can load or unload a cog by using the load or unload command
         [p]load cog1 cog2 ...
 
 You can enable and disable everything you want, which means you can
-customize Red how you want!
+customize Edu how you want!
 
 .. _getting-started-community-cogs:
 
@@ -163,7 +163,7 @@ Community cogs
 ~~~~~~~~~~~~~~
 
 There's an entire `community <https://discord.gg/red>`_ that contributes
-to Red. Those contributors make additional cogs for you to use. You can
+to Edu. Those contributors make additional cogs for you to use. You can
 download them using the downloader cog.
 
 You can start using the downloader cog by loading it: ``[p]load downloader``
@@ -199,7 +199,7 @@ command we talked about before.
 Permissions
 -----------
 
-Red works with different levels of permissions. Every cog defines
+Edu works with different levels of permissions. Every cog defines
 the level of permission needed for a command.
 
 ~~~~~~~~~
@@ -251,17 +251,17 @@ but he won't be able to modify the cog settings with the ``[p]modset`` command.
 Hosting
 -------
 
-If you are hosting Red on your personal computer, you will soon notice that
-if you close the window or if you shut down you computer, Red will be offline.
+If you are hosting Edu on your personal computer, you will soon notice that
+if you close the window or if you shut down you computer, Edu will be offline.
 It needs an environment to work and respond.
 
-You can try to host Red somewhere it will always be online, like on a virtual
+You can try to host Edu somewhere it will always be online, like on a virtual
 private server (VPS) or on a personal server (e.g. Raspberry Pi).
 
 If you want to do it, follow these steps.
 
 .. warning::
-    Before trying to host Red on a Linux environment, you need to know the
+    Before trying to host Edu on a Linux environment, you need to know the
     basics of the Unix commands, such as navigating the system files or use
     a terminal text editor.
 
@@ -271,12 +271,12 @@ If you want to do it, follow these steps.
 
 1. **Find a host**
 
-  You need to find a server to host Red. You can rent a VPS (it can be free)
+  You need to find a server to host Edu. You can rent a VPS (it can be free)
   on an online service. Please check :ref:`this page <host-list>` for
   more information.
 
   You can also buy a Raspberry Pi (~$20), which is a micro-computer that will
-  be able to host Red. The model 3 or above is recommended.
+  be able to host Edu. The model 3 or above is recommended.
 
 2. **Install Linux**
 
@@ -304,7 +304,7 @@ If you want to do it, follow these steps.
 
   .. note:: Don't forget to type the command ``logout`` to close the SSH properly.
 
-3. **Install and set up Red**
+3. **Install and set up Edu**
 
   Just follow one of the Linux installation guide. We provide guides for the
   most used distributions. Check the :ref:`home page <main>` and search for
@@ -312,10 +312,10 @@ If you want to do it, follow these steps.
 
 4. **Set up an auto-restart**
 
-  Once you got Red running on your server, it will still shut down if you close
+  Once you got Edu running on your server, it will still shut down if you close
   the window. You can set up an auto-restarting system that will create a
   side task and handle fatal errors, so you can just leave your server running
-  and enjoy Red!
+  and enjoy Edu!
 
   For that, just follow :ref:`this guide <systemd-service-guide>`.
 
@@ -325,7 +325,7 @@ If you want to do it, follow these steps.
 User documentation
 ------------------
 
-You will soon start using the Red core cogs. A detailed documentation is
+You will soon start using the Edu core cogs. A detailed documentation is
 available for every core cog, under the :ref:`How to use <main>` section.
 
 The cog guides are formatted the same. They're divided into 3 sections:

@@ -3,8 +3,8 @@ import subprocess as sp
 
 import pytest
 
-from redbot.cogs.downloader.repo_manager import ProcessFormatter, Repo
-from redbot.pytest.downloader import (
+from edubot.cogs.downloader.repo_manager import ProcessFormatter, Repoedubot
+from edubot.pytest.downloader import (
     GIT_VERSION,
     cloned_git_repo,
     git_repo,

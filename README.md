@@ -32,7 +32,7 @@
   <a href="http://edu-discordbot.readthedocs.io/en/stable/?badge=stable">
     <img src="https://readthedocs.org/projects/Edu-DiscordBot/badge/?version=stable" alt="Edu on readthedocs.org">
   </a>
-  <a href="https://github.com/ambv/black">
+  <a href="https://github.com/psf/black">
     <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code Style: Black">
   </a>
   <a href="http://makeapullrequest.com">
@@ -70,7 +70,7 @@ from installing and updating, every part of the bot can be controlled from withi
 - Moderation features (kick/ban/softban/hackban, mod-log, filter, chat cleanup)
 - Trivia (lists are included and can be easily added)
 - Music features (YouTube, SoundCloud, local files, playlists, queues)
-- Stream alerts (Twitch, YouTube, Hitbox, Picarto)
+- Stream alerts (Twitch, Youtube, Picarto)
 - Bank (slot machine, user credits)
 - Custom commands
 - Imgur/gif search
@@ -124,5 +124,5 @@ Released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) li
 Artwork created by [Mavaddat](https://mavaddat.deviantart.com/) on Deviant Art for the Edu Discord
 Bot Project.
 
-This project vendors [discord.ext.menus](https://github.com/Rapptz/discord-ext-menus) package made by Danny Y. (@Rapptz) which is distributed under MIT License.
-Copy of this license can be found in [discord-ext-menus.LICENSE](redbot/vendored/discord-ext-menus.LICENSE) file in [redbot/vendored](redbot/vendored) folder of this repository.
+This project vendors [discord.ext.menus](https://github.com/Rapptz/discord-ext-menus) package made by Danny Y. (Rapptz) which is distributed under MIT License.
+A copy of this license can be found in the [discord-ext-menus.LICENSE](redbot/vendored/discord-ext-menus.LICENSE) file in the [redbot/vendored](redbot/vendored) folder of this repository.
